@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/retrieve
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/store
+Content-Type: application/json
+
+{
+    "value": 4
+}
+
+###
+
+POST http://localhost:3000/deployContract
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/setContract
+Content-Type: application/json
+
+{
+    "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+}
